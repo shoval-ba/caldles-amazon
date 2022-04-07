@@ -1,2 +1,2 @@
-# caldles-amazon
+# candles-amazon
 the candles page 
