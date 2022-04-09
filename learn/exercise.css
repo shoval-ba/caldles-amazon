@@ -1,0 +1,125 @@
+
+/* color all the h2 */
+h2{
+    color: aquamarine;
+}
+/* class of the color red */
+.red-text {
+    color: red;
+}
+/* id class */
+#car-photo{
+    color: purple;
+  }
+/* the font & size of all the paragraph */
+p{
+    font-family: monospace;
+}
+p {
+    font-size: 16px;
+}
+p {
+    font-weight: 600;
+ }
+ /* class that put underline in red */
+ .mytext {
+    text-decoration: underline dotted red;
+  }
+ /* class that remove underline */
+  .text {
+    text-decoration: none;
+  }
+/* class change the size of some image */
+.fullhd {
+    width: 1280px;
+    height: 720px;
+  }
+/* class thyat change the text size */
+.parent {
+    width: 250px;
+    height: 250px;
+}
+.child {
+    height: calc(100% - 30px);
+}
+/* whaen you hover the h1 */
+h1:hover {
+    background: rgb(255, 0, 157);
+  }
+  /* when you click on the a */
+  a:active{
+    text-decoration: underline;
+  }
+  /* the text inside the input */
+  input:disabled{
+    color: blue;
+  }
+/* change the cursor(when they hover on the image) */
+  img:hover {
+    cursor: pointer;
+  }
+/* class that change the cursor(when they hover) */
+.button:hover {
+    cursor: pointer;
+  }
+/* class that put a border */
+  .wakka {
+    margin: 20px;
+    padding: 30px;
+    border: 2px solid blue;
+  }
+/* put an outline over h1 */
+  h1{
+    outline: 2px solid rgb(0, 38, 255);
+  }
+/* class that change the place */
+  .ghost {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+  }
+/* which have a (z-index) bigger will be shown above others */
+  .apple {
+    z-index: 1;
+    position: absolute;
+    background: white;
+  }
+  .orange {
+    position: absolute;
+    background: white;
+  }
+  /* class that make all in one line */
+  .food {
+    display: inline;
+  }
+  /* class that hide the sentence */
+  .hideme {
+    display: none;
+  }
+/* when the screen apllied and what will happened  */
+  @media only screen and (min-width: 1001px) {
+    background: red;
+  }
+  @media only screen and (min-width: 301px) and (max-width: 1000px) {
+    background: yellow;
+  }
+  @media only screen and (max-width: 300px) {
+    background: green;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center; /*אופקי*/
+    align-items: center; /*מאונך*/
+  }
+/* "flex-direcion: column" אופקי */
+/*  flex-direcion: row;  מאונך המצב התמידי אם לא מגדירים אחרת */
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 100px;
+}
+
+
+

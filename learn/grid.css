@@ -1,0 +1,22 @@
+grid-container{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    grid-auto-rows: 1fr;
+    grid-gap:5px ;
+    grid-template-areas: 
+    "header header"
+    "sidebar content"
+    "sidebar content";
+}
+
+.grid-item-1{
+    grid-area: header;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 8;
+}
+
+.grid-item-2{
+    grid-area: "sidebar content";
+}

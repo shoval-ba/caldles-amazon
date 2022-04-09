@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="grid.css">
+        <style>
+            .wrapper{
+                display: grid; /*always apear*/
+                grid-template-columns: 4fr; /*the percentage between the paragrph*/
+                grid-column-gap: 1em; /*the space between the paragrph*/
+            }
+            .wrapper > div{
+                background: #eee;
+                padding: 1em;
+            }
+            .wrapper > div:nth-child(odd){
+                background: #ddd;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Eligendi mollitia dolor dolorum fuga non recusandae debitis amet earum voluptates. 
+                Sapiente corrupti ut nisi quia iusto!
+            </div>
+            <div>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque architecto quis impedit animi ipsum magni repudiandae numquam? 
+                Ad voluptas vero vitae. Reprehenderit rerum sunt voluptatum incidunt, 
+                ipsa vel velit sequi reiciendis aliquid doloribus quos ad nostrum maxime! 
+                Sunt distinctio sed esse dolores est dolorem dignissimos ea quas, quo porro recusandae?
+            </div>
+        </div>
+    </body>
+</html>
